@@ -27,7 +27,7 @@ const SearchBar = ({ onSearch }) => {
       />
       <button
         onClick={() => onSearch(query)}
-        className="bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700 "
+        className="bg-[#1E9CD7] text-white px-6 py-3 rounded-full hover:text-[#1E9CD7] border hover:border-[#1E9CD7] hover:bg-white transition-colors"
       >
         Search Now
       </button>
